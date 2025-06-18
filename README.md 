@@ -1,0 +1,75 @@
+🏏 Cricklytics: IPL Match Predictor
+Cricklytics is a real-time web app that predicts the winning probability of an IPL team using live match inputs like target, score, overs, and wickets.
+It combines data science with intuitive visualizations to give fans and analysts quick insights during a match.
+
+🚀 Features
+🧠 Win probability prediction (Logistic Regression)
+
+🧹 Cleaned and preprocessed match-level IPL data
+
+📊 EDA to explore trends in chases, scores, and win margins
+
+🧪 Feature engineering:
+
+Current Run Rate (CRR)
+
+Required Run Rate (RRR)
+
+Balls remaining, Wickets left, Target difference
+
+📉 Visuals:
+
+Horizontal win probability bar
+
+Donut-style pie chart
+
+Score vs Target bar chart
+
+🧰 Tech Stack
+Languages: Python
+
+Libraries: Streamlit, Pandas, NumPy, scikit-learn, Matplotlib
+
+Model: Logistic Regression (trained on past IPL match data)
+
+📊 Data Workflow
+Data Cleaning
+
+Removed matches with missing or irrelevant data
+
+Filtered matches with DL method or incomplete innings
+
+EDA (Exploratory Data Analysis)
+
+Examined impact of early wickets, high RRR, and venue bias
+
+Identified useful features for model input
+
+Feature Selection
+
+CRR, RRR, Runs Left, Wickets Left, Remaining Balls
+
+Teams, Host City
+
+▶️ How to Run
+Install dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Launch the app:
+
+bash
+Copy
+Edit
+streamlit run app.py
+🙌 Credits
+Developed by Siddharth Jain
+🔗 LinkedIn Profile
+
+📷 Screenshots / Demo
+(Coming soon)
+
+📄 License
+Free to use. Attribution appreciated.
