@@ -76,6 +76,9 @@ It combines machine learning and interactive visuals to provide quick, insightfu
 <hr>
 
 <h2>📷 Screenshots / Demo</h2>
-<p><em>Coming soon — stay tuned!</em></p>
+<p>Here’s a preview of the app in action:</p>
+<img src="/assets/Screenshot1.png" alt="Input Screen" width = "700" />
+<img src="/assets/Screenshot2.png" alt="Prediction Result" width = "700" />
+<img scr="/assets/Screenshot3.png" alt="Visual Output" width = "700" />
 
 <hr>
