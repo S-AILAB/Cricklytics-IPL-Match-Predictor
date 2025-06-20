@@ -12,7 +12,7 @@ import time
 
 
 #setiing page title, icon and layout
-st.set_page_config(page_title="Cricklytics: IPL Match Predictor", page_icon="/Users/siddharthjain/Desktop/SJ/cuvette/python ML program/Add On Projects/IPL Prediction by me/IPL_LOGO.png", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Cricklytics: IPL Match Predictor", page_icon="IPL_LOGO.png", layout="wide", initial_sidebar_state="expanded")
 
 st.image("IPL_LOGO.png", width=100)
 st.title("🏏 Cricklytics: IPL Match Predictor") #page title
